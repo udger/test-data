@@ -1,6 +1,6 @@
 <?php
 /**
- * UdgerParser - test speed UA
+ * UdgerParser - test speed IP
  * 
  * @author     The Udger.com Team (info@udger.com)
  * @license    http://www.gnu.org/licenses/lgpl.html GNU Lesser General Public License
@@ -34,5 +34,7 @@ fclose($fh);
 
 $time_elapsed_secs = microtime(true) - $start;
 echo "parse IP end, time: ". $time_elapsed_secs;
+
+echo "end\n";
 
 ?>

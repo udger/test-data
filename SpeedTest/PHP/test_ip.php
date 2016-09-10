@@ -35,6 +35,6 @@ fclose($fh);
 $time_elapsed_secs = microtime(true) - $start;
 echo "parse IP end, time: ". $time_elapsed_secs;
 
-echo "end\n";
+echo "\n";
 
 ?>

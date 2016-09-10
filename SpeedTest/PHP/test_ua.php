@@ -16,7 +16,9 @@ $factory = new Udger\ParserFactory("udgerdb_v3.dat");
 
 $parser = $factory->getParser();
 //$parser->setCacheEnable(false);
-$parser->setCacheEnable(5000);
+//$parser->setCacheSize(4000);
+
+
 
 echo "download test UA file start\n";
 $fh = fopen('https://raw.githubusercontent.com/udger/test-data/master/test_ua-ip/ua_1000.txt','r');

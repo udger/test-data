@@ -18,8 +18,6 @@ $parser = $factory->getParser();
 //$parser->setCacheEnable(false);
 //$parser->setCacheSize(4000);
 
-
-
 echo "download test UA file start\n";
 $fh = fopen('https://raw.githubusercontent.com/udger/test-data/master/test_ua-ip/ua_1000.txt','r');
 
@@ -41,6 +39,6 @@ fclose($fh);
 $time_elapsed_secs = microtime(true) - $start;
 echo "parse UA end, time: ". $time_elapsed_secs;
 
-echo "\n";
+echo "\nend\n";
 
 ?>

@@ -5949,7 +5949,7 @@
 			<browser_reg>
 				<order>4</order>
 				<browser_id>426</browser_id>
-				<regstring>/^Mozilla.*Android .*Ninesky\-android\-mobile\/([0-9\.]+)/si</regstring>
+				<regstring>/^Mozilla.*Android.*Ninesky\-android\-mobile\/([0-9\.]+)/si</regstring>
 			</browser_reg>
 			<browser_reg>
 				<order>5</order>

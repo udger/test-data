@@ -12,7 +12,7 @@
         },
         "ret": {
             "ua_string": "",
-            "sec_ch_ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"97\", \"Ch",
+            "sec_ch_ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"97\", \"Chromium\";v=\"97\"",
             "sec_ch_ua_full_version_list": "",
             "sec_ch_ua_mobile": "0",
             "sec_ch_ua_full_version": "97.0.4692.71",
